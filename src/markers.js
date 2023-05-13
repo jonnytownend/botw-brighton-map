@@ -31,7 +31,7 @@ export const markers = [
     },
     {
         text: "Korok Challenge", location: locations.korokChallengeBeach, icon: icons.kokokIcon,
-        body: "A mysterious shape has formed in the sand. What on earth could it be??",
+        body: "Have you noticed how much Koroks love to make those funky stone circles all over the place?? Let's see if you can beat them at their own game by making a circle, then seing if any other passing travellers solve the puzzle!",
     },
     {
         text: "Memory", location: locations.firstKissMemory, icon: icons.memory,
