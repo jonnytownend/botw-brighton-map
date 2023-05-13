@@ -11,7 +11,7 @@ export const markers = [
     },
     {
         text: "Korok Challenge", location: locations.stAnnsWellPark, icon: icons.kokokIcon,
-        body: "Something doesn't seem quite right about this structure. Could the Korok's be up to no good again?",
+        body: "Something doesn't seem quite right about this structure in the Great Hyrule Forest. Could the Korok's be up to no good again?",
     },
     {
         text: "Stables", location: locations.merryGoRound, icon: icons.stableIcon,

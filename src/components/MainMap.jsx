@@ -40,10 +40,10 @@ const MainMapContainer = ({ google }) => {
                 {coords && GetMarker(`${coords.latitude}, ${coords.longitude}`, icons.questIcon)}
                 {activeMarker && activeMarker.location && (
                     <InfoWindow
-                        options={{ maxWidth: 300 }}
+                        options={{ maxWidth: 300, pixelOffset: { height: -30 } }}
                         ma
                         position={{
-                            lat: Number(getPosition(activeMarker.location).lat) + 0.001,
+                            lat: Number(getPosition(activeMarker.location).lat),
                             lng: getPosition(activeMarker.location).lng,
                         }}
                         visible
