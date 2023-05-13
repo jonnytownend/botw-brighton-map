@@ -21,8 +21,8 @@ function App() {
   return (
     <div>
       <MainMap />
-      <img src={sheikahTopSlate} style={{ position: 'absolute', width: "100%" }} />
-      <img src={sheikahBottomSlate} style={{ position: 'absolute', bottom: 0, width: "100%" }} />
+      <img className='overlay' src={sheikahTopSlate} />
+      <img className='overlay' src={sheikahBottomSlate} style={{ bottom: 0 }} />
     </div>
   );
 }

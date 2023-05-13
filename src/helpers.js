@@ -1,4 +1,5 @@
-import { Marker } from "google-maps-react"
+import { InfoWindow, Marker } from "google-maps-react"
+import { useCallback, useState } from "react"
 
 export function getPosition(string) {
     return {
@@ -7,13 +8,16 @@ export function getPosition(string) {
     }
 }
 
-export function getMarker(position, icon) {
+export function GetMarker(position, icon, label, onClick) {
     return (
         <Marker
+            title="Test"
+            label={label}
             position={getPosition(position)}
             icon={{
                 url: icon,
             }}
+            onClick={onClick}
         />
     )
 }
