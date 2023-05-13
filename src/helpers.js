@@ -8,11 +8,9 @@ export function getPosition(string) {
     }
 }
 
-export function GetMarker(position, icon, label, onClick) {
+export function GetMarker(position, icon, onClick) {
     return (
         <Marker
-            title="Test"
-            label={label}
             position={getPosition(position)}
             icon={{
                 url: icon,

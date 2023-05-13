@@ -16,6 +16,9 @@ export const icons = {
     hyruleCastleIcon: "https://www.zeldadungeon.net/maps/botw/icons/castle.png",
     goddessStatueIcon: "https://www.zeldadungeon.net/maps/botw/icons/statue.png",
     cookingPot: "https://www.zeldadungeon.net/maps/botw/icons/pot.png",
+    memory: "https://www.zeldadungeon.net/maps/botw/icons/memory.png",
+    treasure: "https://www.zeldadungeon.net/maps/botw/icons/treasure.png",
+    guardian: "https://www.zeldadungeon.net/maps/botw/icons/guardian.png",
 }
 
 // Locations
@@ -24,10 +27,15 @@ export const locations = {
     i360: "50.82137137656311, -0.15089141430891825",
     stAnnsWellPark: "50.829589706592635, -0.15585575015109024",
     home: "50.82666987902811, -0.15714153369684533",
-    templeOfTime: "50.82689286004631, -0.16510665621987505",
+    templeOfTime: "50.82685422890825, -0.1646024115961181",
     gerudoCity: "50.822446389807936, -0.1379832191763473",
     statue: "50.82456027724248, -0.15682480590956452",
-    korokChallenge1: "50.82446105437028, -0.15881518747671616",
-    korokChallenge2: "50.81872737139383, -0.13925190362132117",
+    korokChallengeTreasure: "50.82446105437028, -0.15881518747671616",
+    korokChallengeDonut: "50.81872737139383, -0.13925190362132117",
+    korokChallengeBeach: "50.82236037566518, -0.1597336904115781",
     foodNoCatch: "50.82177083573662, -0.1498770750197505",
+    foodIceCream: "50.82081845626481, -0.14816147562714463",
+    firstKissMemory: "50.82359889319899, -0.16998068726443127",
+    danceMat: "50.81782350332942, -0.13672973645572659",
+    loadingBar: "50.81916525084154, -0.13526945867618417",
 }
