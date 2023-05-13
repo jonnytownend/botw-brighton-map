@@ -23,27 +23,15 @@ export const markers = [
     },
     {
         text: "Goddess Statue", location: locations.statue, icon: icons.goddessStatueIcon,
-        body: "An ancient and lesser-known Goddess Statue can be found somewhere within this area. The statue older than all other Goddess Statue's in Hyrule, and is said to offer a reward to those who are willing to bargain with it.",
+        body: "An ancient and lesser-known Goddess Statue can be found somewhere within this area. The statue is older than all other Goddess Statue's in Hyrule, and is said to offer a reward to those who are willing to bargain with it.",
     },
     {
         text: "Hidden Treasure", location: locations.korokChallengeTreasure, icon: icons.treasure,
         body: `Tumbo the traveller told you "I was exploring the Faron region a few days ago and decided it would be the prefect spot to burry my treasuere. The problem is, I can't seem to remember where I burried it!" Retrieve Tumbo's treasure and he might be willing to share the loot.`,
     },
     {
-        text: "Korok Challenge", location: locations.korokChallengeDonut, icon: icons.kokokIcon,
-        body: "Locate the furthest-most visible letter to complete the challenge!",
-    },
-    {
         text: "Korok Challenge", location: locations.korokChallengeBeach, icon: icons.kokokIcon,
         body: "A mysterious shape has formed in the sand. What on earth could it be??",
-    },
-    {
-        text: "No Catch", location: locations.foodNoCatch, icon: icons.cookingPot,
-        body: "A chance to gorge on some Hearty Bass!",
-    },
-    {
-        text: "V360 Ice Cream", location: locations.foodIceCream, icon: icons.cookingPot,
-        body: "Everyone needs a treat once in a while - even you, Link!",
     },
     {
         text: "Memory", location: locations.firstKissMemory, icon: icons.memory,
@@ -56,5 +44,37 @@ export const markers = [
     {
         text: "Guardian challenge", location: locations.loadingBar, icon: icons.guardian,
         body: "BEWARD OF GUARDIANS!",
+    },
+    {
+        text: "No Catch", location: locations.foodNoCatch, icon: icons.cookingPot,
+        body: "A chance to gorge on some Hearty Bass!",
+    },
+    {
+        text: "The Bok Shop", location: "50.81998729012573, -0.139280626118417", icon: icons.cookingPot,
+        body: "Prime Meat in burger form",
+    },
+    {
+        text: "Aji Sushi", location: "50.82753003063549, -0.1681738615956503", icon: icons.cookingPot,
+        body: "Energising Seafood Rice Balls",
+    },
+    {
+        text: "Fato a Mano", location: "50.827316631295965, -0.16636283281918682", icon: icons.cookingPot,
+        body: "Hylian Tomato Pizza",
+    },
+    {
+        text: "Halisco", location: "50.823784396217974, -0.15074358463745569", icon: icons.cookingPot,
+        body: "Spicy Meat and Seafood Fry",
+    },
+    {
+        text: "Loading...", location: "50.819146774457415, -0.1351905787886901", icon: icons.cookingPot,
+        body: "A great place to (Nintend)go!",
+    },
+    {
+        text: "Flour Pot", location: "50.821311189592464, -0.15001316471398793", icon: icons.cookingPot,
+        body: "Serves a fantastic Energising Elixir!",
+    },
+    {
+        text: "V360 Ice Cream", location: locations.foodIceCream, icon: icons.cookingPot,
+        body: "Everyone needs a treat once in a while - even you, Link!",
     },
 ]

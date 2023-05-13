@@ -32,6 +32,7 @@ const MainMapContainer = ({ google }) => {
 
     return (
         <Map
+            syle={{ width: "100%", height: "100%" }}
             google={google}
             zoom={15}
             initialCenter={getPosition(locations.home)}
