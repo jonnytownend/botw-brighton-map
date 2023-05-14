@@ -10,12 +10,20 @@ export const markers = [
         body: "This great Sheikah Tower looms over the vast wetlands of the south. From the top of the tower, one can witness a full 360 view of Hyrule. However, the tower has become crawling with Bokoblins and Moblins - the shady chacater Kilton is also said to be charging a whopping fee of monster parts to gain access to the top! Probably worth avoiding for now.",
     },
     {
+        text: "Southern Tower", location: "50.81555273172756, -0.1376026632825583", icon: icons.sheikahTowerIcon,
+        body: "This Sheikah Tower sits at the furthest point south. Once at the top, it has an unconventional method of descending!",
+    },
+    {
+        text: "East Tower", location: "50.8189729584424, -0.134335347983786", icon: icons.sheikahTowerIcon,
+        body: "This Sheikah Tower looks out over the rocky pools to the east. Once you've activated this tower, use your glider to descend back down to the ground - if you dare!",
+    },
+    {
         text: "Korok Challenge", location: locations.stAnnsWellPark, icon: icons.kokokIcon,
         body: "Something doesn't seem quite right about this structure in the Great Hyrule Forest. Could the Korok's be up to no good again?",
     },
     {
         text: "Stables", location: locations.merryGoRound, icon: icons.stableIcon,
-        body: "A Giant Horse has been spotted around this location! Use the skills that you've aquired whilst exploring Hyrule to find - and maybe even tame - the horse.",
+        body: "A Giant Horse has been spotted around this location! And the word is, the horse has some kind of association to you and your family. Use the skills that you've aquired whilst exploring Hyrule to find - and maybe even tame - the horse.",
     },
     {
         text: "Temple of Time", location: locations.templeOfTime, icon: icons.templeOfTimeIcon,
