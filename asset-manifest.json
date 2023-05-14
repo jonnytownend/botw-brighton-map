@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/botw-brighton-map/static/css/main.89c8d881.css",
-    "main.js": "/botw-brighton-map/static/js/main.6b856450.js",
+    "main.js": "/botw-brighton-map/static/js/main.a3c00f74.js",
     "static/js/787.1ef257c3.chunk.js": "/botw-brighton-map/static/js/787.1ef257c3.chunk.js",
     "static/media/sheika-slate-top.png": "/botw-brighton-map/static/media/sheika-slate-top.56c9284755f4531de4de.png",
     "static/media/sheika-slate-bottom.png": "/botw-brighton-map/static/media/sheika-slate-bottom.2f984d6f72a45dac47db.png",
     "index.html": "/botw-brighton-map/index.html",
     "main.89c8d881.css.map": "/botw-brighton-map/static/css/main.89c8d881.css.map",
-    "main.6b856450.js.map": "/botw-brighton-map/static/js/main.6b856450.js.map",
+    "main.a3c00f74.js.map": "/botw-brighton-map/static/js/main.a3c00f74.js.map",
     "787.1ef257c3.chunk.js.map": "/botw-brighton-map/static/js/787.1ef257c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89c8d881.css",
-    "static/js/main.6b856450.js"
+    "static/js/main.a3c00f74.js"
   ]
 }
